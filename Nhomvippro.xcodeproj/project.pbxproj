@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0EB9FD25884DC6004C3ED3 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0EB9FC25884DC6004C3ED3 /* FooterView.swift */; };
+		AC0EBA0025884FDD004C3ED3 /* FormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0EB9FF25884FDD004C3ED3 /* FormatterExtension.swift */; };
+		AC4ACBB0257DCC660090DF3C /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ACBAF257DCC660090DF3C /* DoubleExtension.swift */; };
+		AC4ACBB4257E61C10090DF3C /* TabContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ACBB3257E61C10090DF3C /* TabContentView.swift */; };
+		AC4ACBB8257E62C00090DF3C /* RecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4ACBB7257E62C00090DF3C /* RecentView.swift */; };
+		AC619691257F0001009E4619 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC619690257F0001009E4619 /* HeaderView.swift */; };
+		AC619694257F010A009E4619 /* TextHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC619693257F010A009E4619 /* TextHeaderView.swift */; };
+		AC619697257F080B009E4619 /* CountryDataRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC619696257F080B009E4619 /* CountryDataRowView.swift */; };
+		AC61969A257F08E1009E4619 /* TextRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC619699257F08E1009E4619 /* TextRowView.swift */; };
+		AC61969F257F0B88009E4619 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC61969E257F0B88009E4619 /* IntExtension.swift */; };
+		AC6196A2257F0E0E009E4619 /* FormatterUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6196A1257F0E0E009E4619 /* FormatterUtil.swift */; };
+		AC6196A5257F1E59009E4619 /* TotalDataCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6196A4257F1E59009E4619 /* TotalDataCardView.swift */; };
+		AC73AC6F257F23970084783D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73AC6E257F23970084783D /* CardView.swift */; };
+		ACC142D72583D42B0062267C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC142D62583D42B0062267C /* SearchView.swift */; };
+		ACE0BF18258556EF001F09DB /* CountryDetailRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0BF17258556EF001F09DB /* CountryDetailRowView.swift */; };
+		ACE0BF1B25855B4D001F09DB /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0BF1A25855B4D001F09DB /* CountryDetailView.swift */; };
+		ACE0BF2025856712001F09DB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0BF1F25856712001F09DB /* MapView.swift */; };
+		ACE0BF2425856773001F09DB /* CovidCaseAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0BF2325856773001F09DB /* CovidCaseAnnotation.swift */; };
+		ACE0BF2725857F96001F09DB /* MapContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0BF2625857F96001F09DB /* MapContainerView.swift */; };
+		ACE0BF2C258678F1001F09DB /* DataStatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0BF2B258678F1001F09DB /* DataStatisticsViewModel.swift */; };
+		ACE0BF2F25867C94001F09DB /* DetailedCountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0BF2E25867C94001F09DB /* DetailedCountryData.swift */; };
+		ACF0B3F7257D93D200F70079 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0B3F6257D93D200F70079 /* DataViewModel.swift */; };
+		ACF0B3FB257D95ED00F70079 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0B3FA257D95ED00F70079 /* Constants.swift */; };
+		ACF0B3FF257D9C1D00F70079 /* WorldData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0B3FE257D9C1D00F70079 /* WorldData.swift */; };
+		ACF0B402257D9E0700F70079 /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0B401257D9E0700F70079 /* CountryData.swift */; };
+		ACFF0904257D8D9200AC56CB /* InitializerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF0903257D8D9200AC56CB /* InitializerApp.swift */; };
+		ACFF0906257D8D9200AC56CB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF0905257D8D9200AC56CB /* HomeView.swift */; };
+		ACFF0908257D8D9600AC56CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFF0907257D8D9600AC56CB /* Assets.xcassets */; };
+		ACFF090B257D8D9600AC56CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFF090A257D8D9600AC56CB /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC0EB9FC25884DC6004C3ED3 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		AC0EB9FF25884FDD004C3ED3 /* FormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterExtension.swift; sourceTree = "<group>"; };
+		AC4ACBAF257DCC660090DF3C /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		AC4ACBB3257E61C10090DF3C /* TabContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContentView.swift; sourceTree = "<group>"; };
+		AC4ACBB7257E62C00090DF3C /* RecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentView.swift; sourceTree = "<group>"; };
+		AC619690257F0001009E4619 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		AC619693257F010A009E4619 /* TextHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHeaderView.swift; sourceTree = "<group>"; };
+		AC619696257F080B009E4619 /* CountryDataRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDataRowView.swift; sourceTree = "<group>"; };
+		AC619699257F08E1009E4619 /* TextRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRowView.swift; sourceTree = "<group>"; };
+		AC61969E257F0B88009E4619 /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		AC6196A1257F0E0E009E4619 /* FormatterUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterUtil.swift; sourceTree = "<group>"; };
+		AC6196A4257F1E59009E4619 /* TotalDataCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalDataCardView.swift; sourceTree = "<group>"; };
+		AC73AC6E257F23970084783D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		ACC142D62583D42B0062267C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		ACE0BF17258556EF001F09DB /* CountryDetailRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailRowView.swift; sourceTree = "<group>"; };
+		ACE0BF1A25855B4D001F09DB /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		ACE0BF1F25856712001F09DB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		ACE0BF2325856773001F09DB /* CovidCaseAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidCaseAnnotation.swift; sourceTree = "<group>"; };
+		ACE0BF2625857F96001F09DB /* MapContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContainerView.swift; sourceTree = "<group>"; };
+		ACE0BF2B258678F1001F09DB /* DataStatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStatisticsViewModel.swift; sourceTree = "<group>"; };
+		ACE0BF2E25867C94001F09DB /* DetailedCountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedCountryData.swift; sourceTree = "<group>"; };
+		ACF0B3F6257D93D200F70079 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		ACF0B3FA257D95ED00F70079 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ACF0B3FE257D9C1D00F70079 /* WorldData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldData.swift; sourceTree = "<group>"; };
+		ACF0B401257D9E0700F70079 /* CountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
+		ACFF0900257D8D9200AC56CB /* Nhomvippro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nhomvippro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFF0903257D8D9200AC56CB /* InitializerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerApp.swift; sourceTree = "<group>"; };
+		ACFF0905257D8D9200AC56CB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ACFF0907257D8D9600AC56CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACFF090A257D8D9600AC56CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACFF090C257D8D9600AC56CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFF08FD257D8D9200AC56CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4ACBAE257DCC480090DF3C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC4ACBAF257DCC660090DF3C /* DoubleExtension.swift */,
+				AC61969E257F0B88009E4619 /* IntExtension.swift */,
+				AC0EB9FF25884FDD004C3ED3 /* FormatterExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC4ACBB2257E606A0090DF3C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC4ACBB3257E61C10090DF3C /* TabContentView.swift */,
+				AC619690257F0001009E4619 /* HeaderView.swift */,
+				AC619696257F080B009E4619 /* CountryDataRowView.swift */,
+				AC619693257F010A009E4619 /* TextHeaderView.swift */,
+				AC619699257F08E1009E4619 /* TextRowView.swift */,
+				AC6196A4257F1E59009E4619 /* TotalDataCardView.swift */,
+				AC73AC6E257F23970084783D /* CardView.swift */,
+				ACC142D62583D42B0062267C /* SearchView.swift */,
+				ACE0BF17258556EF001F09DB /* CountryDetailRowView.swift */,
+				AC0EB9FC25884DC6004C3ED3 /* FooterView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ACE0BF1D258566E5001F09DB /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				ACE0BF1F25856712001F09DB /* MapView.swift */,
+				ACE0BF2625857F96001F09DB /* MapContainerView.swift */,
+				ACE0BF2325856773001F09DB /* CovidCaseAnnotation.swift */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
+		ACF0B3F1257D936600F70079 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ACF0B3F6257D93D200F70079 /* DataViewModel.swift */,
+				ACE0BF2B258678F1001F09DB /* DataStatisticsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ACF0B3F3257D937D00F70079 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACF0B3FE257D9C1D00F70079 /* WorldData.swift */,
+				ACF0B401257D9E0700F70079 /* CountryData.swift */,
+				ACE0BF2E25867C94001F09DB /* DetailedCountryData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACF0B3F9257D95CA00F70079 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ACF0B3FA257D95ED00F70079 /* Constants.swift */,
+				AC6196A1257F0E0E009E4619 /* FormatterUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ACFF08F7257D8D9200AC56CB = {
+			isa = PBXGroup;
+			children = (
+				ACFF0902257D8D9200AC56CB /* Nhomvippro */,
+				ACFF0901257D8D9200AC56CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFF0901257D8D9200AC56CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF0900257D8D9200AC56CB /* Nhomvippro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFF0902257D8D9200AC56CB /* Nhomvippro */ = {
+			isa = PBXGroup;
+			children = (
+				AC4ACBAE257DCC480090DF3C /* Extensions */,
+				ACF0B3F9257D95CA00F70079 /* Utils */,
+				ACF0B3F1257D936600F70079 /* ViewModels */,
+				ACF0B3F3257D937D00F70079 /* Models */,
+				ACFF0916257D8F8600AC56CB /* Views */,
+				ACFF0907257D8D9600AC56CB /* Assets.xcassets */,
+				ACFF090C257D8D9600AC56CB /* Info.plist */,
+				ACFF0909257D8D9600AC56CB /* Preview Content */,
+			);
+			path = Nhomvippro;
+			sourceTree = "<group>";
+		};
+		ACFF0909257D8D9600AC56CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF090A257D8D9600AC56CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACFF0916257D8F8600AC56CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACE0BF1D258566E5001F09DB /* MapKit */,
+				AC4ACBB2257E606A0090DF3C /* Components */,
+				ACFF0903257D8D9200AC56CB /* InitializerApp.swift */,
+				ACFF0905257D8D9200AC56CB /* HomeView.swift */,
+				AC4ACBB7257E62C00090DF3C /* RecentView.swift */,
+				ACE0BF1A25855B4D001F09DB /* CountryDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFF08FF257D8D9200AC56CB /* Nhomvippro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFF090F257D8D9600AC56CB /* Build configuration list for PBXNativeTarget "Nhomvippro" */;
+			buildPhases = (
+				ACFF08FC257D8D9200AC56CB /* Sources */,
+				ACFF08FD257D8D9200AC56CB /* Frameworks */,
+				ACFF08FE257D8D9200AC56CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nhomvippro;
+			productName = "SwiftUI-CovidState";
+			productReference = ACFF0900257D8D9200AC56CB /* Nhomvippro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFF08F8257D8D9200AC56CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					ACFF08FF257D8D9200AC56CB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = ACFF08FB257D8D9200AC56CB /* Build configuration list for PBXProject "Nhomvippro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACFF08F7257D8D9200AC56CB;
+			productRefGroup = ACFF0901257D8D9200AC56CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFF08FF257D8D9200AC56CB /* Nhomvippro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFF08FE257D8D9200AC56CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFF090B257D8D9600AC56CB /* Preview Assets.xcassets in Resources */,
+				ACFF0908257D8D9600AC56CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFF08FC257D8D9200AC56CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE0BF2425856773001F09DB /* CovidCaseAnnotation.swift in Sources */,
+				ACE0BF2725857F96001F09DB /* MapContainerView.swift in Sources */,
+				AC619691257F0001009E4619 /* HeaderView.swift in Sources */,
+				AC619694257F010A009E4619 /* TextHeaderView.swift in Sources */,
+				ACF0B3FF257D9C1D00F70079 /* WorldData.swift in Sources */,
+				AC0EBA0025884FDD004C3ED3 /* FormatterExtension.swift in Sources */,
+				ACE0BF2F25867C94001F09DB /* DetailedCountryData.swift in Sources */,
+				AC6196A2257F0E0E009E4619 /* FormatterUtil.swift in Sources */,
+				ACE0BF1B25855B4D001F09DB /* CountryDetailView.swift in Sources */,
+				ACFF0906257D8D9200AC56CB /* HomeView.swift in Sources */,
+				ACF0B3F7257D93D200F70079 /* DataViewModel.swift in Sources */,
+				ACE0BF2025856712001F09DB /* MapView.swift in Sources */,
+				AC0EB9FD25884DC6004C3ED3 /* FooterView.swift in Sources */,
+				AC6196A5257F1E59009E4619 /* TotalDataCardView.swift in Sources */,
+				ACE0BF18258556EF001F09DB /* CountryDetailRowView.swift in Sources */,
+				ACFF0904257D8D9200AC56CB /* InitializerApp.swift in Sources */,
+				ACF0B402257D9E0700F70079 /* CountryData.swift in Sources */,
+				AC61969A257F08E1009E4619 /* TextRowView.swift in Sources */,
+				ACC142D72583D42B0062267C /* SearchView.swift in Sources */,
+				AC4ACBB0257DCC660090DF3C /* DoubleExtension.swift in Sources */,
+				ACE0BF2C258678F1001F09DB /* DataStatisticsViewModel.swift in Sources */,
+				AC61969F257F0B88009E4619 /* IntExtension.swift in Sources */,
+				AC619697257F080B009E4619 /* CountryDataRowView.swift in Sources */,
+				AC4ACBB4257E61C10090DF3C /* TabContentView.swift in Sources */,
+				AC4ACBB8257E62C00090DF3C /* RecentView.swift in Sources */,
+				AC73AC6F257F23970084783D /* CardView.swift in Sources */,
+				ACF0B3FB257D95ED00F70079 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ACFF090D257D8D9600AC56CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACFF090E257D8D9600AC56CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACFF0910257D8D9600AC56CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Nhomvippro/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Nhomvippro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nhomvippro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACFF0911257D8D9600AC56CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Nhomvippro/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Nhomvippro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nhomvippro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFF08FB257D8D9200AC56CB /* Build configuration list for PBXProject "Nhomvippro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFF090D257D8D9600AC56CB /* Debug */,
+				ACFF090E257D8D9600AC56CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFF090F257D8D9600AC56CB /* Build configuration list for PBXNativeTarget "Nhomvippro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFF0910257D8D9600AC56CB /* Debug */,
+				ACFF0911257D8D9600AC56CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFF08F8257D8D9200AC56CB /* Project object */;
+}
